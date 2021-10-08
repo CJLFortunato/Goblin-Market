@@ -1,0 +1,19 @@
+.search-bar {
+    border: 1px solid darkred;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    width: 70%;
+}
+
+#search-input {
+    width: 80%;
+    height: 2rem;
+}
+#search-btn {
+    height: 2.2rem;
+    margin: 1%;
+    width: 7%;
+}
