@@ -9,4 +9,8 @@ img {
     background-color: lightslategrey;
     max-width: 350px;
     margin: 0 auto;
+    object-fit: contain;
+}
+.item-title {
+    font-size: 1.5rem;
 }
