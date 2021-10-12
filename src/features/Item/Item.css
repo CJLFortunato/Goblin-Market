@@ -1,9 +1,12 @@
 .item {
-    background-color: lightsalmon;
+    background-color: lightsteelblue;
+    padding: 10px;
 }
 
 img {
     height: 200px;
     display: block;
     background-color: lightslategrey;
+    max-width: 350px;
+    margin: 0 auto;
 }

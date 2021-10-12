@@ -1,0 +1,58 @@
+.cart {
+    position: absolute;
+    background-color: ghostwhite;
+    padding: 1%;
+    width: 15%;
+    min-height: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    border: gray 1px dashed;
+    left: 120%;
+    animation: .1s ease-in-out 0s 1 running slidein forwards;
+}
+
+ul {
+    padding: 2%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cart-item {
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding: 3%;
+    border: none;
+    
+}
+
+.cart-h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0;
+    padding-bottom: 20px;
+    border: none;
+}
+
+input {
+    width: 40px;
+    height: 1.5rem;
+    margin-left: 3%;
+    float: right;
+}
+.total{
+    margin-top: 2rem;
+}
+
+.moving {
+    animation: 3s ease-in-out 1s 1 running slidein forwards;
+}
+
+@keyframes slidein {
+    from {
+        left: 120%;
+    }
+    to {
+        left: 82%;
+    }
+}
