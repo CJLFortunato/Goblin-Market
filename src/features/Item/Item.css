@@ -4,10 +4,10 @@
 }
 
 img {
-    height: 200px;
+    max-height: 200px;
     display: block;
     background-color: lightslategrey;
-    max-width: 350px;
+    max-width: 250px;
     margin: 0 auto;
     object-fit: contain;
 }

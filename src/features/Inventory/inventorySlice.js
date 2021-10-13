@@ -1,4 +1,5 @@
 import { findRenderedComponentWithType } from "react-dom/test-utils";
+import { selectCategory } from "../CategoriesMenu/categoriesMenuSlice";
 import { selectSearchTerm } from "../SearchBar/searchBarSlice";
 import allItemsData from "./data";
 
@@ -27,10 +28,23 @@ export const selectAllitems = (state) => state.inventory;
 export const selectFilteredItems = (state) => {
     const allItems = selectAllitems(state);
     const searchTerm = selectSearchTerm(state);
+    const category = selectCategory(state);
 
-    return allItems.filter((item) => 
-    item.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    if (searchTerm.length > 0 && category.length > 0) {
+        const temp = allItems.filter((item) => item.category === category);
+        
+        return temp.filter((item) => 
+        item.name.toLowerCase().includes(searchTerm.toLowerCase())
+        ); 
+    } else if (category.length > 0) {
+        return allItems.filter((item) => item.category === category);
+    } else if (searchTerm.length > 0) {
+        return allItems.filter((item) => 
+        item.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+    } else {
+        return allItems;
+    }  
 };
 
 
