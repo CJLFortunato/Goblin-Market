@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import { Item } from '../Item/Item.js';
 import './Inventory.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectAllitems, loadData } from './inventorySlice.js';
+import { selectFilteredItems, loadData } from './inventorySlice.js';
 import { store } from '../../app/store.js';
 
 export function Inventory() {
 
-    const allItems = useSelector(selectAllitems);
+    const allItems = useSelector(selectFilteredItems);
     const dispatch = useDispatch();
 
     const onFirstRender = () => {

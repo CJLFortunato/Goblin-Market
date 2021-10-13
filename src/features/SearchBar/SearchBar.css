@@ -12,8 +12,13 @@
     width: 80%;
     height: 2rem;
 }
-#search-btn {
+#search-clear-button {
     height: 2.2rem;
     margin: 1%;
-    width: 7%;
+    font-size: 1.5rem;
+    width: 3%;
+    position: relative;
+    right: 4%;
+    border: none;
+    background-color: transparent;
 }

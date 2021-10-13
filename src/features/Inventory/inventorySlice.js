@@ -1,3 +1,5 @@
+import { findRenderedComponentWithType } from "react-dom/test-utils";
+import { selectSearchTerm } from "../SearchBar/searchBarSlice";
 import allItemsData from "./data";
 
 
@@ -22,8 +24,13 @@ export const allItemsReducer = (allItems = initialState, action) => {
 
 export const selectAllitems = (state) => state.inventory;
 
-/*export const selectFilteredItems = (state) => {
+export const selectFilteredItems = (state) => {
+    const allItems = selectAllitems(state);
+    const searchTerm = selectSearchTerm(state);
 
-};*/
+    return allItems.filter((item) => 
+    item.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+};
 
 
