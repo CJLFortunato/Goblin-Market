@@ -56,3 +56,22 @@ input {
         left: 82%;
     }
 }
+
+.item-quantity {
+    align-self: center;
+    width: 50px;
+    height: 1.8rem;
+}
+
+.cart-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    align-content: center;
+    padding: 1%;
+}
+
+.cart-p {
+    margin: 1%;
+}
