@@ -19,5 +19,9 @@ main {
     padding: 10px;
 }
  #menu-btn, #cart-btn{
-     height: 2rem;
+    background-color: transparent;
+    
+ }
+ i {
+     font-size: 3rem;
  }

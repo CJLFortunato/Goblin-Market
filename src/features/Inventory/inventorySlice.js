@@ -1,4 +1,3 @@
-import { findRenderedComponentWithType } from "react-dom/test-utils";
 import { selectCategory } from "../CategoriesMenu/categoriesMenuSlice";
 import { selectSearchTerm } from "../SearchBar/searchBarSlice";
 import allItemsData from "./data";

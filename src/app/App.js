@@ -41,10 +41,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button id="menu-btn" onClick={handleMenuBtnClick}>M</button>
+        <button id="menu-btn" onClick={handleMenuBtnClick}><i class="fas fa-bars"></i></button>
         <h1>Goblin Market</h1>
         <SearchBar />
-        <button id="cart-btn" onClick={handleCartBtnClick}>C</button>
+        <button id="cart-btn" onClick={handleCartBtnClick}><i class="fas fa-shopping-cart"></i></button>
       </header>
       <main>
         {categoriesMenuSlideIn()}
