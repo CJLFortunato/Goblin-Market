@@ -1,6 +1,6 @@
 import React from "react";
 import './Cart.css';
-import { changeItemQuantity, selectCartItems } from "./cartSlice.js";
+import { changeItemQuantity, removeItem, selectCartItems } from "./cartSlice.js";
 import { useDispatch, useSelector } from "react-redux";
 
 export function Cart(props) {
@@ -14,6 +14,12 @@ export function Cart(props) {
         }
         const newQuantity = Number(input);
         dispatch(changeItemQuantity(name, newQuantity));
+    }
+
+    const onRemoveHandler = (name) => {
+      const payload = { name, ...cart[name]};
+      dispatch(removeItem(payload));
+      console.log("Event detected");
     }
 
     function createCartItem(name) {
@@ -39,6 +45,7 @@ export function Cart(props) {
                 </option>
               ))}
             </select>
+            <button id="cart-item-delete-btn" onClick={() => onRemoveHandler(name)}>X</button>
           </li>
         );
       }
