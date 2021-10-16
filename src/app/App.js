@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
+import './reset.css';
 import './App.css';
 import { SearchBar } from '../features/SearchBar/SearchBar.js';
 import { Inventory } from '../features/Inventory/Inventory.js';
 import { CategoriesMenu } from '../features/CategoriesMenu/CategoriesMenu.js';
 import { Cart } from '../features/Cart/Cart.js';
+import { useSelector } from 'react-redux';
+import { selectNumberOfItemsInCart } from '../features/Cart/cartSlice';
+import { store } from './store.js';
 
 function App() {
 
@@ -36,15 +40,13 @@ function App() {
  
 }
 
-
-
   return (
     <div className="App">
       <header className="App-header">
-        <button id="menu-btn" onClick={handleMenuBtnClick}><i class="fas fa-bars"></i></button>
+        <button id="menu-btn" onClick={handleMenuBtnClick}><i className="fas fa-bars"></i></button>
         <h1>Goblin Market</h1>
         <SearchBar />
-        <button id="cart-btn" onClick={handleCartBtnClick}><i class="fas fa-shopping-cart"></i></button>
+        <button id="cart-btn" onClick={handleCartBtnClick}><i className="fas fa-shopping-cart"></i></button>
       </header>
       <main>
         {categoriesMenuSlideIn()}

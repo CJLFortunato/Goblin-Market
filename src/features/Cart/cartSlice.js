@@ -76,3 +76,5 @@ export const cartReducer = (cart = initialCart, action) => {
 };
 
 export const selectCartItems = (state) => state.cart;
+
+export const selectNumberOfItemsInCart = (state) => Object.keys(state.cart).length;

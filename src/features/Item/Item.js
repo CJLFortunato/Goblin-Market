@@ -13,9 +13,9 @@ export function Item({item}) {
 
     return(
         <article className="item">
-            <img src={item.img.default} alt=""></img>
             <h3 className="item-title">{item.name}</h3>
-            <p>{item.price}gp</p>
+            <img src={item.img.default} alt=""></img>
+            <p className="price">{item.price}gp</p>
             <button id="add-cart-btn" onClick={() => onClickHandler(item)}>Add to Cart</button>
         </article>
     );
