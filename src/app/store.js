@@ -1,6 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
 import categoriesReducer from '../features/CategoriesMenu/categoriesMenuSlice';
-import counterReducer from '../features/counter/counterSlice';
 import { allItemsReducer } from '../features/Inventory/inventorySlice.js';
 import { searchTermReducer } from '../features/SearchBar/searchBarSlice.js'
 import { cartReducer } from '../features/Cart/cartSlice';

@@ -1,12 +1,12 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import './CategoriesMenu.css';
-import { clearCategory, selectCategory, setCategory } from "./categoriesMenuSlice";
+import { clearCategory, setCategory } from "./categoriesMenuSlice";
 
 
 export function CategoriesMenu() {
 
-    const currentCategory = useSelector(selectCategory);
+    
     const dispatch = useDispatch();
 
     const onCategoryClickHandler = (e) => {

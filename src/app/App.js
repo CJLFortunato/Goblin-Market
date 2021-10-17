@@ -5,9 +5,6 @@ import { SearchBar } from '../features/SearchBar/SearchBar.js';
 import { Inventory } from '../features/Inventory/Inventory.js';
 import { CategoriesMenu } from '../features/CategoriesMenu/CategoriesMenu.js';
 import { Cart } from '../features/Cart/Cart.js';
-import { useSelector } from 'react-redux';
-import { selectNumberOfItemsInCart } from '../features/Cart/cartSlice';
-import { store } from './store.js';
 
 function App() {
 

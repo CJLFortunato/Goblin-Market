@@ -13,7 +13,7 @@ export function Inventory() {
     const onFirstRender = () => {
         dispatch(loadData());
     };
-    useEffect(onFirstRender, []);
+    useEffect(onFirstRender, [dispatch]);
 
     
     console.log(store.getState());
