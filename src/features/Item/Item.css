@@ -37,13 +37,15 @@ img {
     align-self: flex-end;
     justify-self: flex-end;
     font-size: 1.2rem;
-    
+}
+#add-cart-btn:active {
+    background-color: hsl(100, 15%, 10%)
 }
 .price {
     margin:0;
-    font-size: 1.5rem;
-    color:hsl(100, 15%, 10%);
+    font-size: 2rem;
+    color:hsl(100, 15%, 40%);
     clear: none;
     justify-self: center;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }

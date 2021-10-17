@@ -44,7 +44,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <button id="menu-btn" onClick={handleMenuBtnClick}><i className="fas fa-bars"></i></button>
-        <h1>Goblin Market</h1>
+        <h1><i className="fas fa-balance-scale"></i> Goblin Market</h1>
         <SearchBar />
         <button id="cart-btn" onClick={handleCartBtnClick}><i className="fas fa-shopping-cart"></i></button>
       </header>
