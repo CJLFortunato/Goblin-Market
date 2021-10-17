@@ -1,6 +1,8 @@
 # Goblin Market - fake e-commerce site
 
-A fake e-commerce site with a fantasy twist. There is no back-end because that is not my division. Originally built for the Codeacademy Front-end engineer career path. 
+A fake e-commerce site with a fantasy twist. There is no back-end because that is not my division. Originally built for the Codeacademy Front-end engineer career path.
+
+[https://goblin-market.netlify.app/](https://goblin-market.netlify.app/)
 
 ## Table of contents:
 
@@ -22,6 +24,7 @@ Project has been created with:
 * @reduxjs/toolkit 1.6.2
 
 Using Create React App - Redux template
+Deployed using Netlify
 
 ## Features
 
