@@ -6,6 +6,7 @@
     display: flex;
     flex-flow: column nowrap;
     
+    
 }
 
 img {
@@ -48,4 +49,10 @@ img {
     clear: none;
     justify-self: center;
     margin-bottom: 2%;
+}
+
+@media screen and (max-width: 300px){
+    img {
+        max-width: 200px;
+    }
 }

@@ -84,3 +84,36 @@ input {
     border: none;
     justify-self: flex-end;
 }
+
+@media screen and (max-width:678px){
+    .cart {
+        width: 75%;
+        box-shadow: 0px 5px 15px hsl(0, 0%, 50%);
+    } 
+
+    @keyframes slidein {
+        from {
+            left: 120%;
+        }
+        to {
+            left: 23%;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 678px) and (max-width: 1200px){ 
+    .cart {
+        width: 55%;
+        box-shadow: 0px 5px 15px hsl(0, 0%, 50%);
+    }
+
+    @keyframes slidein {
+        from {
+            left: 120%;
+        }
+        to {
+            left: 44%;
+        }
+    }
+}

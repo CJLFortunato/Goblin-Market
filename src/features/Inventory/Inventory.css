@@ -6,3 +6,31 @@
     gap: 25px;
     margin: 20px auto;
 }
+
+@media screen and (max-width:678px){
+    .inventory {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 20px auto;
+    } 
+}
+
+@media screen and (min-width: 678px) and (max-width: 1200px){
+    .inventory {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin: 20px auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .inventory {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 20px auto;
+    }
+}
