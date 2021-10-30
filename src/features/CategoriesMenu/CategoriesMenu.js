@@ -23,12 +23,12 @@ export function CategoriesMenu() {
             <h3>Categories</h3>
             <ul>
               <li><button className="cat-btn" onClick={onClearCategoryHandler}>All</button></li>
-              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Category 1</button></li>
-              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Category 2</button></li>  
-              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Category 3</button></li>  
-              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Category 4</button></li>  
-              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Category 5</button></li>  
-              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Category 6</button></li>    
+              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Technology</button></li>
+              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Reagents</button></li>  
+              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Artifacts</button></li>  
+              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Live Animals</button></li>  
+              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Weapons</button></li>  
+              <li><button className="cat-btn" onClick={onCategoryClickHandler}>Drugs</button></li>    
             </ul>
         </div>
     );
