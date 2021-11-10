@@ -1,16 +1,16 @@
 * {
-    font-family: 'Ubuntu Mono';
+    font-family: 'Share Tech Mono';
     font-weight: 400;
     color:hsl(120, 0%, 10%)
 }
 
 header {
-    background-color: hsl(20, 20%, 65%);
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 5px 15px hsl(0, 0%, 70%);
+    border-bottom: 5px double white;
     position: fixed;
     width: 100%;
 }
@@ -18,13 +18,15 @@ header {
 header h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: hsl(100, 15%, 40%);
+    color:white;
+    text-shadow: 1px 0px 0px #66ff00, -1px 0px 0px #ff008a;
 }
 
 main {
     
     width: 90%;
-    background-color: hsla(120, 0%, 10%, 0.1);
+    border-left: 1px solid #66ff00;
+    border-right: 1px solid #ff008a;
     margin: 0 auto;
     padding: 10px;
     padding-top: 7rem;
@@ -35,16 +37,18 @@ main {
     
  }
  #menu-btn:active, #cart-btn:active{
-    background-color: darkslategrey;
+    background-color: hsl(0, 0%, 30%);
     border: none;
     
  }
  i {
      font-size: 3rem;
-     color:hsl(100, 15%, 40%);
+     color:white;
+     text-shadow: 2px 0px 0px #66ff00, -2px 0px 0px #ff008a;
+     
  }
  body {
-     color: white;
+     background-color: black;
      width: 100vw;
      
  }

@@ -1,10 +1,13 @@
 .item {
-    background-color: white;
+    background-color: black;
+    background: repeating-linear-gradient(hsla(0, 0%, 100%, 0.05) 4px 8px, hsla(0, 0%, 100%, 0.1) 8px 12px), radial-gradient(transparent, hsla(0, 0%, 100%, 0.15));
     padding: 10px;
     height: 450px;
-    border: 1px solid hsl(100, 15%, 80%);
+    border: 1px solid;
+    border-color: #66ff00 #66ff00 #ff008a #ff008a;
     display: flex;
     flex-flow: column nowrap;
+    border-radius: 20px 0 20px 0;
     
     
 }
@@ -23,7 +26,7 @@ img {
     font-size: 1.7rem;
     border: none;
     font-weight: 700;
-    color:hsl(100, 15%, 10%);
+    color:white;
     align-self: center;
     height: 5.5rem;
     
@@ -31,25 +34,32 @@ img {
 
 #add-cart-btn {
     float: right;
-    background-color: hsl(100, 15%, 40%);
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
     height: 2rem;
     border-radius: 5px;
     align-self: flex-end;
     justify-self: flex-end;
     font-size: 1.2rem;
+    box-shadow: 2px 0px 0px #66ff00, -2px 0px 0px #ff008a;
 }
 #add-cart-btn:active {
-    background-color: hsl(100, 15%, 10%)
+    background-color: hsl(100, 0%, 10%);
+    color: white;
+}
+#add-cart-btn:hover {
+    background-color: hsl(100, 0%, 70%);
+    
 }
 .price {
     margin:0;
     font-size: 2rem;
-    color:hsl(100, 15%, 40%);
+    color:white;
     clear: none;
     justify-self: center;
     margin-bottom: 2%;
+    text-shadow: 1px 0px 0px #66ff00, -1px 0px 0px #ff008a;
 }
 
 @media screen and (max-width: 300px){
