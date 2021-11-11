@@ -25,8 +25,9 @@ header h1 {
 main {
     
     width: 90%;
-    border-left: 1px solid #66ff00;
-    border-right: 1px solid #ff008a;
+    /* border-left: 1px solid white;
+    border-right: 1px solid white; */
+    background-color: hsla(0, 0%, 0%, 0.9);
     margin: 0 auto;
     padding: 10px;
     padding-top: 7rem;
@@ -48,8 +49,11 @@ main {
      
  }
  body {
+     background-image: url(../media/bg_image_2.jpg);
+     background-size: contain;
      background-color: black;
      width: 100vw;
+     background-attachment: fixed;
      
  }
 

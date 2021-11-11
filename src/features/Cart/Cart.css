@@ -5,13 +5,15 @@
     width: 20%;
     min-height: 30%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-content: center;
     left: 120%;
     animation: .1s ease-in-out 0s 1 running slidein forwards;
     border: 5px double white;
     /* box-shadow: 1px 1px 15px #66ff00, -1px -1px 15px #ff008a; */
     border-radius: 50px 0 50px 0;
+    max-height: 95vh;
+    overflow: scroll;
 }
 
 ul {
@@ -86,6 +88,19 @@ input {
     border: none;
     justify-self: flex-end;
     color: white;
+}
+.pay-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    height: 2rem;
+    width: 70%;
+    align-self: flex-end;
+    justify-self: flex-end;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    box-shadow: 2px 0px 0px #66ff00, -2px 0px 0px #ff008a;
+    margin-top: 6%;
 }
 
 @media screen and (max-width:678px){

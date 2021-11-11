@@ -15,7 +15,7 @@ export function Item({item}) {
         <article className="item">
             <h3 className="item-title">{item.name}</h3>
             <img src={item.img.default} alt=""></img>
-            <p className="price">{item.price}gp</p>
+            <p className="price">{item.price}Œ</p>
             <button id="add-cart-btn" onClick={() => onClickHandler(item)}>Add to Cart</button>
         </article>
     );

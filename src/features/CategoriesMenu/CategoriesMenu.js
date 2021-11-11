@@ -20,7 +20,7 @@ export function CategoriesMenu() {
 
     return(
         <div className="categories-menu">
-            <h3>Categories</h3>
+            <h3 class="menu-h3">Categories</h3>
             <ul>
               <li><button className="cat-btn" onClick={onClearCategoryHandler}>All</button></li>
               <li><button className="cat-btn" onClick={onCategoryClickHandler}>Technology</button></li>

@@ -46,6 +46,10 @@ I have been helped by the Codeacademy [Redux Toolkit](https://www.codecademy.com
 
 Design inspired by various e-commerces sites.
 
+Background photo by [Maximalfocus](https://unsplash.com/@maximalfocus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+  
+Photo by <a href="https://unsplash.com/@andrewchildress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Childress</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 ## Other Infos
 
 App made by CJL Fortunato. 

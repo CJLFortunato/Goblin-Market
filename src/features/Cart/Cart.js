@@ -64,11 +64,12 @@ export function Cart(props) {
 
     return(
         <div className="cart">
-            <h3 className="cart-h3">Cart</h3>
+            <h3 className="cart-h3 menu-h3">Cart</h3>
             <ul>
               {cartElements}     
             </ul>
-            <h3 className="cart-h3 total">Total: {total()} gold</h3>
+            <h3 className="cart-h3 total menu-h3">Total: {total()}Œ</h3>
+            <button class="pay-btn">Proceed to payment</button>
         </div>
     );
 }
