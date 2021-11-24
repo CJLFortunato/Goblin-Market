@@ -1,10 +1,12 @@
 .inventory {
-    width: 80%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 320px 320px 320px 320px ;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
-    gap: 25px;
+    grid-template-columns: 320px 320px 320px 320px 320px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
     margin: 20px auto;
+    padding: 0 1.5%;
+    /* border: 1px solid firebrick; */
 }
 
 @media screen and (max-width:678px){

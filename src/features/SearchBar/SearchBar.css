@@ -11,7 +11,7 @@
     width: 40vw;
     height: 2.5rem;
     border-radius: 4px;;
-    box-shadow: 2px 0px 0px #66ff00, -2px 0px 0px #ff008a;
+    /* box-shadow: 2px 0px 0px #66ff00, -2px 0px 0px #ff008a; */
     border: none;
 }
 #search-clear-button {

@@ -64,7 +64,7 @@ export function Cart(props) {
 
     return(
         <div className="cart">
-            <h3 className="cart-h3 menu-h3">Cart</h3>
+            <h3 className="cart-h3 menu-h3" id="cart-title">Cart</h3>
             <ul>
               {cartElements}     
             </ul>
