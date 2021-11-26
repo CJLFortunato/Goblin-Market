@@ -15,6 +15,9 @@ A fake e-commerce site with a fantasy twist. There is no back-end because that i
 ## Changelog
 
 * 17/10/2021 - First deploy
+* 11/11/2021 - Tested a cyberpunk look
+* 24/11/2021 - Scrapped cyberpunk look, changed to a look inspired by Amazon's colors
+* 26/11/2021 - Added Best Sellers and On Sale categories, a static (for now) login window, and close buttons on categories and cart menus.
 
 ## Technologies used
 
@@ -34,22 +37,22 @@ Deployed using Netlify
 * Add items to a cart
 * Remove items from cart
 * Responsive design
+* Fake login window
 
 ### To Do
 
 * Replace placeholder products
 * Display more information when the user clicks on a product
+* ~~Add "Close" buttons on categories and cart menus.~~
+* Add some functionality to the login window
+* Add a fake check-out window
 
 ## Sources
 
 I have been helped by the Codeacademy [Redux Toolkit](https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-redux/modules/refactoring-with-redux-toolkit/lessons/the-redux-toolkit/exercises/converting-the-store-to-use-configurestore) and [Core Redux API](https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-redux/modules/core-redux-api/projects/codecademy-store) exercises.
 
 Design inspired by various e-commerces sites.
-
-Background photo by [Maximalfocus](https://unsplash.com/@maximalfocus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-  
-Photo by <a href="https://unsplash.com/@andrewchildress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Childress</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+ 
 ## Other Infos
 
 App made by CJL Fortunato. 
