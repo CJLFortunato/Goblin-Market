@@ -36,6 +36,12 @@ export const selectFilteredItems = (state) => {
         item.name.toLowerCase().includes(searchTerm.toLowerCase())
         ); 
     } else if (category.length > 0) {
+        if (category === "Best Sellers") {
+            return allItems.filter((item) => item.bestSeller === true);
+        }
+        if (category === "On Sale") {
+            return allItems.filter((item) => item.onSale === true);
+        }
         return allItems.filter((item) => item.category === category);
     } else if (searchTerm.length > 0) {
         return allItems.filter((item) => 
