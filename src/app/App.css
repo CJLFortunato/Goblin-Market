@@ -32,7 +32,7 @@ main {
     padding: 10px;
     padding-top: 5rem;
 }
- #menu-btn, #cart-btn{
+ #menu-btn, #cart-btn, #act-btn{
     background-color: transparent;
     border: none;
     
