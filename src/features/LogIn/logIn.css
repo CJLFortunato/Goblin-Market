@@ -57,3 +57,16 @@ input {
     color: white;
     font-size: 1.2rem;
 }
+#login-close {
+    position: absolute;
+    width: 55px;
+    background-color: transparent;
+    border: none;
+    color: hsl(20, 0%, 100%);
+    right: 1%;
+    font-size: 2rem;
+    z-index: 10;
+}
+#login-close:hover {
+    color: #FF9900;  
+}

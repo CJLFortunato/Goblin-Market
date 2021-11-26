@@ -3,7 +3,7 @@ import './Cart.css';
 import { changeItemQuantity, removeItem, selectCartItems } from "./cartSlice.js";
 import { useDispatch, useSelector } from "react-redux";
 
-export function Cart(props) {
+export function Cart({closeFunc}) {
 
     const dispatch = useDispatch();
     const cart = useSelector(selectCartItems);
@@ -60,10 +60,13 @@ export function Cart(props) {
             return sum ? sum : 0;
       };
         
-      
+      const onClose = function() {
+        closeFunc(false);
+    };
 
     return(
         <div className="cart">
+            <button id="cart-close" onClick={onClose}>X</button>
             <h3 className="cart-h3 menu-h3" id="cart-title">Cart</h3>
             <ul>
               {cartElements}     

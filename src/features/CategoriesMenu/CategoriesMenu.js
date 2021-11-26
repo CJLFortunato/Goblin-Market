@@ -4,7 +4,7 @@ import './CategoriesMenu.css';
 import { clearCategory, setCategory } from "./categoriesMenuSlice";
 
 
-export function CategoriesMenu() {
+export function CategoriesMenu({closeFunc}) {
 
     
     const dispatch = useDispatch();
@@ -18,8 +18,13 @@ export function CategoriesMenu() {
         dispatch(clearCategory());
     }
 
+    const onClose = function() {
+        closeFunc(false);
+    };
+
     return(
         <div className="categories-menu">
+            <button id="cat-close" onClick={onClose}>X</button>
             <h3 class="menu-h3">Categories</h3>
             <ul>
               <li><button className="cat-btn" onClick={onClearCategoryHandler}>All</button></li>

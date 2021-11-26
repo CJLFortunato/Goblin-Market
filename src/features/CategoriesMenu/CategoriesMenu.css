@@ -5,7 +5,7 @@
     width: 20%;
     height: 95%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-content: center;
     left: 0%;
     animation: .1s ease-in-out 0s 1 running slidein2 forwards;
@@ -61,6 +61,19 @@ li {
     background-color: #232F3E;
     /* border-bottom: 1px solid white; */
     /* text-shadow: 1px 0px 0px #66ff00, -1px 0px 0px #ff008a; */
+}
+#cat-close {
+    position: absolute;
+    width: 55px;
+    background-color: transparent;
+    border: none;
+    color: hsl(20, 0%, 100%);
+    left: 87%;
+    font-size: 2rem;
+    
+}
+#cat-close:hover {
+    color: #FF9900;  
 }
 
 

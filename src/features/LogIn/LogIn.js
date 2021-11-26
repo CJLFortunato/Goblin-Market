@@ -9,9 +9,14 @@ export function LogInMenu({closeFunc}) {
         closeFunc(false);
     }
 
+    const onClose = function() {
+        closeFunc(false);
+    };
+
 
     return(
         <div className="login-menu">
+            <button id="login-close" onClick={onClose}>X</button>
             <h3 className="login-title">Welcome! Please log or sign in.</h3>
             <form>
                 <label for="email">E-mail address</label>
